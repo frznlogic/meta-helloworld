@@ -1,0 +1,5 @@
+#!/bin/env bash
+
+source source/poky/oe-init-build-env
+cp source/poky/conf/bblayers.conf build/conf/bblayers.conf
+cp source/poky/conf/local.conf build/conf/local.conf
